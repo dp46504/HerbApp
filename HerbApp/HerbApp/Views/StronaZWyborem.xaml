@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HerbApp.Views.StronaZWyborem"
+             BackgroundColor="Transparent">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Padding="-20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5" />
+                </Grid.RowDefinitions>
+                
+                <Button Text="Zielona"
+                       Grid.Column="1"
+                       Grid.Row="1"
+                       FontSize="30"
+                        FontAttributes="Bold"
+                       TextColor="#91AA9D"
+                       BackgroundColor="#193441"
+                        BorderWidth="1"
+                        BorderColor="#91AA9D"
+                       HorizontalOptions="FillAndExpand"
+                       Padding="20"
+                        Clicked="GreenHerbClicked"
+                       />
+                <Button Text="Czerwona"
+                       Grid.Column="1"
+                       Grid.Row="2"
+                       FontSize="30"
+                        FontAttributes="Bold"
+                       TextColor="#193441"
+                       BackgroundColor="#91AA9D"
+                       HorizontalOptions="FillAndExpand"
+                       Padding="20"
+                        Clicked="RedHerbClicked"
+                       />
+                <Button Text="Czarna"
+                       Grid.Column="1"
+                       Grid.Row="3"
+                       FontSize="30"
+                        FontAttributes="Bold"
+                       TextColor="#91AA9D"
+                       BackgroundColor="#193441"
+                        BorderWidth="1"
+                        BorderColor="#91AA9D"
+                       HorizontalOptions="FillAndExpand"
+                       Padding="20"
+                        Clicked="BlackHerbClicked"
+                       />
+                <Button Text="Yerba"
+                       Grid.Column="1"
+                       Grid.Row="4"
+                       FontSize="30"
+                        FontAttributes="Bold"
+                       TextColor="#193441"
+                       BackgroundColor="#91AA9D"
+                       HorizontalOptions="FillAndExpand"
+                       Padding="20"
+                        Clicked="YerbaHerbClicked"
+                       />
+                <Button Text="Biała"
+                       Grid.Column="1"
+                       Grid.Row="5"
+                       FontSize="30"
+                        FontAttributes="Bold"
+                       TextColor="#91AA9D"
+                       BackgroundColor="#193441"
+                        BorderWidth="1"
+                        BorderColor="#91AA9D"
+                       HorizontalOptions="FillAndExpand"
+                       Padding="20"
+                        Clicked="WhiteHerbClicked"
+                       />
+            </Grid>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HerbApp.Views.StronaPowitalna">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#91AA9D">
+            <Label Text="Po lewej stronie znajdziesz Menu, z którego możesz wybrać herbatę, która Cię interesuje"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="Center"
+                   FlowDirection="LeftToRight"
+                   HorizontalTextAlignment="Center"
+                   Padding="100"
+                   FontSize="25"
+                   TextColor="#3E606F"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
